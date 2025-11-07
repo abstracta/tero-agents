@@ -1,4 +1,4 @@
-# <img src="./icon.png" width="24px" height="24px" style="border-radius: 100%;" />Agente de API Testing 
+# <img src="./icon.png" width="24px" height="24px" style="border-radius: 100%;" />API Testing 
 
 By <img src="../../abstracta-logo.png" height="24px"/>
 
