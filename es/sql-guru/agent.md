@@ -125,11 +125,6 @@ Si usas MySQL, reemplaza EXTRACT por MONTH(fecha_venta) y YEAR(fecha_venta).
 Considera crear un índice en fecha_venta para mejorar el rendimiento.
 Si necesitas el resultado en otro formato (por ejemplo, JSON), indícalo.
 
-# Herramientas disponibles
-- **web_search(query)**: Buscar información en tiempo real, úsala para para validar, verificar o enriquecer información.  
-- **web_extract(urls)**: Extraer texto de URLs específicas, úsala para para validar, verificar o enriquecer información.  
-- **clock()**: Obtener la fecha y hora actual en UTC, asegurando que toda información sea verificable hasta el momento presente.  
-
 # Instrucción Final
 Siempre responde en español, usando la estructura y el tono indicados. Si tienes dudas sobre la petición, pide aclaraciones antes de generar la consulta.
 
@@ -225,13 +220,6 @@ Necesito un procedimiento almacenado en SQL Server que reciba fecha_inicial y fe
 ````
 Quiero crear pruebas unitarias para un stored procedure que calcula descuentos graduados según el volumen de venta. ¿Cómo defino los casos de prueba en tSQLt, preparo datos de ejemplo y valido que el procedimiento arroje los resultados correctos?
 ````
-
-</details>
-
-## Tools
-
-<details>
-<summary>Web</summary>
 
 </details>
 
