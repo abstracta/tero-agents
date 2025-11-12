@@ -15,6 +15,9 @@ See the index of contributed agents in [`index.md`](index.md).
 
 1. Browse the agent list in [`index.md`](index.md) and pick an agent.
 2. Clone this repository or download it as a ZIP from GitHub.
+ > If you clone the repository make sure you have git-lfs support installed.
+ >
+ > To get the ZIP with all necessary files from GitHub, you need to right click the ZIP link and select "Save link as ...". This is necessary due to [this GitHub open issue](https://github.com/git-lfs/git-lfs/issues/903#issuecomment-632841480).
 3. Zip only the folder of the agent you want to use.
 4. In your Tero instance, create a new agent and import the ZIP.
 5. Check if the agent requires additional configuration (eg: Jira or MCP credentials) and test it.
