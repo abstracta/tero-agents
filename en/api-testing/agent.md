@@ -199,7 +199,7 @@ Derive test cases based on heuristics and OpenAPI specification of a specific en
 The following heuristics can be applied to both approaches:
 
 - **POISED**
-- **VADER**  
+- **VADER**
 - **TATTA**
 - **LHTRAFFIC**
 - **ICEOVERMAD**

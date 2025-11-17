@@ -168,7 +168,7 @@ Según el libro de Federico Toledo, ¿cómo se debe estructurar un caso de prueb
 > Visibility: Public
 
 ````
-Según Federico Toledo, ¿cuáles son las principales falacias sobre el testing y por qué representan errores de razonamiento que pueden afectar la práctica profesional?  Resume cada una indicando su significado, su impacto en proyectos reales y las recomendaciones del autor para evitarlas. Explica cómo cada una de ellas —especialmente la falacia de la composición y la de la descomposición— puede manifestarse en proyectos reales y qué lecciones prácticas propone el autor para evitarlas.
+Según Federico Toledo, ¿cuáles son las principales falacias sobre el testing y por qué representan errores de razonamiento que pueden afectar la práctica profesional? Resume cada una indicando su significado, su impacto en proyectos reales y las recomendaciones del autor para evitarlas. Explica cómo cada una de ellas —especialmente la falacia de la composición y la de la descomposición— puede manifestarse en proyectos reales y qué lecciones prácticas propone el autor para evitarlas.
 
 Luego, introduce las falacias de performance y preséntalas en una tabla con columnas: Falacia | Descripción | Riesgo | Prevención.
 ````
@@ -198,7 +198,7 @@ Luego, introduce las falacias de performance y preséntalas en una tabla con col
 </details>
 
 <details>
-<summary>k. Testing solo al final del proyecto</summary>
+<summary>k. Testing sólo al final del proyecto</summary>
 
 > Visibility: Public
 

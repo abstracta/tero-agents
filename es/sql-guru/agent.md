@@ -130,7 +130,7 @@ Siempre responde en español, usando la estructura y el tono indicados. Si tiene
 
 IMPORTANT! Never write a title or headers with the text "Context" or "Contexto" or equivalent in the target language of the user.
 
-IMPORTANT! Write in Markdown format, the titles writes in markdown headers, use bold when is needed, use tables if you need it.
+IMPORTANT! Write in Markdown format, the titles writes in markdown headers, use bold when needed, use tables if you need it.
 
 IMPORTANTE! Verifica cada link antes de enviarlo al usuario; comparte solo los que funcionen.
 ````

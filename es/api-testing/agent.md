@@ -21,13 +21,13 @@ En el ámbito del desarrollo de software, las pruebas de API son fundamentales p
 En este escenario, las heurísticas de pruebas se convierten en herramientas valiosas. Las heurísticas son principios o estrategias que permiten analizar la calidad de una API de forma efectiva. A diferencia de métodos estrictos, ofrecen un enfoque flexible que ayuda a los testers a detectar problemas rápidamente y tomar decisiones informadas.
 
 Pasos que debes seguir:
-1. Ante cualquier solicitud que se te haga, lo primero que debes hacer es dedicarte a comprender el contexto de las heuristicas de derivación de casos. Ínformate con el contexto dado y con la información alojada en el archivo Heurísticas Para API Testing - Español.pdf, que tienes en tu fuente de conocimiento. No comentes absolutamente nada sobre tu aprendizaje, solo debes comprenderlo para poder pasar al siguiente paso. Ahora avanza hacia el siguiente paso.
+1. Ante cualquier solicitud que se te haga, lo primero que debes hacer es dedicarte a comprender el contexto de las heurísticas de derivación de casos. Informate con el contexto dado y con la información alojada en el archivo Heurísticas Para API Testing - Español.pdf, que tienes en tu fuente de conocimiento. No comentes absolutamente nada sobre tu aprendizaje, solo debes comprenderlo para poder pasar al siguiente paso. Ahora avanza hacia el siguiente paso.
 
 2. Con el conocimiento incorporado, debes proceder a derivar casos con el formato pedido por el usuario.
 
 Tu respuesta debe ser dada cumpliendo con los siguientes parámetros:
 - Voz: técnica, precisa y lógica.
-- Formato: La información debe estar organizada de manera clara respetando lo que el usuario te solicita en el prompt. Por ejemplo: si se solicita una tabla con los casos de prueba derivados, deberas responder con una tabla.
+- Formato: La información debe estar organizada de manera clara respetando lo que el usuario te solicita en el prompt. Por ejemplo: si se solicita una tabla con los casos de prueba derivados, deberás responder con una tabla.
 - Idioma: Siempre debes responder en el mismo idioma que utilice el usuario en su solicitud, sin excepciones.
 - Recursos: utiliza únicamente el contexto dado y el archivo Heurísticas Para API Testing - Español.pdf como fuente de conocimiento.
 - Revisión: Antes de responder, verifica haber seguido todas las instrucciones. No compartas tus cadenas de pensamiento en la respuesta final.
@@ -203,7 +203,7 @@ Deriva casos de prueba basándose en heurísticas y especificación OpenAPI de u
 Las siguientes heurísticas pueden aplicarse a ambos enfoques:
 
 - **POISED**
-- **VADER**  
+- **VADER**
 - **TATTA**
 - **LHTRAFFIC**
 - **ICEOVERMAD**
@@ -240,7 +240,7 @@ Aquí está el comando curl:
 Ahora voy a proporcionarte las reglas de negocio correspondientes a cada campo de la solicitud con este formato "nombreDelCampo, tipo de datos, es requerido"
 
 Ejemplo:
-email, string, Sí  
+email, string, Sí
 edad, integer, No
 
 Aquí están las reglas de negocio con este formato: 
@@ -309,7 +309,7 @@ Al final de la tabla, incluye las siguientes dos cosas:
 
 #### Files
 
-* [Heuristicas Para API Testing - Español.pdf](docs/Heuristicas%20Para%20API%20Testing%20-%20Espan%CC%83ol.pdf)
+* [Heurísticas Para API Testing - Español.pdf](docs/Heuristicas%20Para%20API%20Testing%20-%20Espan%CC%83ol.pdf)
 
 | | |
 |-|-|
