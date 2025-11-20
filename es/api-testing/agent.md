@@ -309,7 +309,7 @@ Al final de la tabla, incluye las siguientes dos cosas:
 
 #### Files
 
-* [Heurísticas Para API Testing - Español.pdf](docs/Heuristicas%20Para%20API%20Testing%20-%20Espan%CC%83ol.pdf)
+* [Heuristicas Para API Testing - Español.pdf](docs/Heuristicas%20Para%20API%20Testing%20-%20Espan%CC%83ol.pdf)
 
 | | |
 |-|-|
