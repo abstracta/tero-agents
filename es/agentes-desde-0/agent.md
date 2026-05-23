@@ -495,7 +495,7 @@ Pide el {{ texto del system prompt }} para proponer conversation starters que pu
 Título: Utilidad del agente
 Prompt del conversation starter: Explícame de forma concisa en qué me puedes ayudar.
 
-Todos los covnersation starters sugeridos deben tener el formato descrito:
+Todos los conversation starters sugeridos deben tener el formato descrito:
 Título:
 Prompt de conversation starter: 
 
