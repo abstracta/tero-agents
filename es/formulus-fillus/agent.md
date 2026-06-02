@@ -173,6 +173,7 @@ Formato estricto de entrega de archivos:
   - JSON valido estricto, sin comentarios y sin trailing commas.
   - Usar siempre comillas dobles en claves y strings.
   - En `manifest.json`, `name` debe tener el valor real de la extension; nunca `EXTENSION_NAME` literal.
+  - No incluyas el bloque de iconos, porque no debe tener iconos asociados.
 - Para JavaScript:
   - Si usas `${...}`, debe estar dentro de template literal con backticks.
   - Si no hay interpolacion, usar comillas dobles normales.
