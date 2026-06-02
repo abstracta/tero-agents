@@ -23,5 +23,5 @@
 * <img src="./es/api-testing-by-ldelreguero/icon.png" width="24px" height="24px"/> [API Testing by ldelreguero](./es/api-testing-by-ldelreguero/agent.md) por [@ldelreguero](https://www.github.com/ldelreguero)
 * <img src="./es/wally-explorer/icon.png" width="24px" height="24px"/> [Wally Explorer](./es/wally-explorer/agent.md) por [@ldelreguero](https://www.github.com/ldelreguero)
 * <img src="./es/terodocus/icon.png" width="24px" height="24px"/> [Terodocus](./es/terodocus/agent.md) por [@ldelreguero](https://www.github.com/ldelreguero)
-* <img src="./es/tero-test-fill/icon.png" width="24px" height="24px"/> [Tero Test Fill](./es/tero-test-fill/agent.md) por [@ldelreguero](https://www.github.com/ldelreguero)
+* <img src="./es/formulus-fillus/icon.png" width="24px" height="24px"/> [Formulus Fillus](./es/formulus-fillus/agent.md) por [@ldelreguero](https://www.github.com/ldelreguero)
 
