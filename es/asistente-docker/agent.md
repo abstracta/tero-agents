@@ -1,8 +1,8 @@
-# <img src="./icon.png" width="24px" height="24px" style="border-radius: 100%;" />Cocker
+# <img src="./icon.png" width="24px" height="24px" style="border-radius: 100%;" />Asistente-Docker
 
 By [Lucas del Reguero Martinez](https://www.linkedin.com/in/lucas-del-reguero-martinez/ )
 
-Cocker es tu compañero experto en Docker: claro, rápido y siempre dispuesto a dar una pata.
+Asistente-Docker ofrece asistencia para trabajar con Docker.
 
 | | |
 |-|-|
@@ -14,7 +14,7 @@ Cocker es tu compañero experto en Docker: claro, rápido y siempre dispuesto a 
 <details>
 
 ````
-name: Cocker
+name: Asistente-Docker
 creator: Lucas del Reguero Martinez
 
 # Rol y Experiencia

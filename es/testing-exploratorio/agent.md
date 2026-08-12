@@ -1,4 +1,4 @@
-# <img src="./icon.png" width="24px" height="24px" style="border-radius: 100%;" />Wally Explorer
+# <img src="./icon.png" width="24px" height="24px" style="border-radius: 100%;" />Testing-exploratorio
 
 By [Lucas del Reguero Martinez](https://www.linkedin.com/in/lucas-del-reguero-martinez/ )
 

@@ -1,8 +1,8 @@
-# <img src="./icon.png" width="24px" height="24px" style="border-radius: 100%;" />Terodocus
+# <img src="./icon.png" width="24px" height="24px" style="border-radius: 100%;" />Guia-tero-by-ldelreguero
 
 By [Lucas del Reguero Martinez](https://www.linkedin.com/in/lucas-del-reguero-martinez/ )
 
-Soy tu Dino amiga. Resuelvo dudas funcionales sobre Tero y te oriento en el uso de agentes.
+Guía de Tero by ldelreguero.
 
 | | |
 |-|-|
@@ -141,7 +141,7 @@ Si me dices qué tarea quieres resolver, puedo ayudarte a perfilar el tipo de ag
 
 Este índice organiza la documentación funcional en español de Tero para responder dudas sobre uso, pantallas, flujos, configuración visible y límites funcionales.
 
-Su objetivo es servir como puerta de entrada a la base de conocimiento que usa Terodocus, sin mezclar documentación funcional con instrucciones internas del agente.
+Su objetivo es servir como puerta de entrada a la base de conocimiento que usa Guia-tero-by-ldelreguero, sin mezclar documentación funcional con instrucciones internas del agente.
 
 ## Cómo usar este índice
 
@@ -1678,7 +1678,7 @@ La mejor forma de elegir un agente no es por nombre sino por objetivo. En esta b
 
 ## Dudas sobre Tero y uso de la plataforma
 
-### Usa Terodocus
+### Usa Guia-tero-by-ldelreguero
 
 Conviene cuando necesitas:
 
