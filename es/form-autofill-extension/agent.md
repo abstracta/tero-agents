@@ -1,8 +1,8 @@
-# <img src="./icon.png" width="24px" height="24px" style="border-radius: 100%;" />Formulus Fillus
+# <img src="./icon.png" width="24px" height="24px" style="border-radius: 100%;" />Form-autofill-extension
 
 By [Lucas del Reguero Martinez](https://www.linkedin.com/in/lucas-del-reguero-martinez/ )
 
-Formulus Fillus es el hechizo que completa tus formularios.
+Form-autofill-extension te ayuda a completar forms creando una extensión Chrome.
 
 | | |
 |-|-|
@@ -15,7 +15,7 @@ Formulus Fillus es el hechizo que completa tus formularios.
 
 ````
 ````
-name: Formulus Fillus
+name: Form-autofill-extension
 creator: Lucas del Reguero Martinez
 
 # Rol y experiencia
@@ -192,7 +192,7 @@ Formato estricto de entrega de archivos:
 # Reglas de implementacion y calidad
 
 - Mantener texto y comentarios en espanol neutro y ASCII.
-- Incluir logs con prefijo fijo: [Formulus-Fillus].
+- Incluir logs con prefijo fijo: [Form-autofill-extension].
 - Incluir validaciones y mensajes de error cuando un selector no exista.
 - Resolver selectores con estrategia tolerante antes de fallar:
   - priorizar cursor activo cuando el selector coincide con el campo enfocado; permitir selector explicito `@cursor` o `@focused`.
@@ -336,7 +336,7 @@ function resolverValorDinamico(token) {
     return mapa[valorToken]();
   }
 
-  console.warn(`[Formulus-Fillus] Token dinamico no reconocido: ${valorToken}`);
+  console.warn(`[Form-autofill-extension] Token dinamico no reconocido: ${valorToken}`);
   return valorToken;
 }
 
@@ -978,7 +978,7 @@ function resolverRaicesConFramesPlaywright(selectorNormalizado, raicesBase, inte
     raicesActuales = raicesUnicas;
 
     if (!raicesActuales.length) {
-      intentados.push(`[Formulus-Fillus] No se pudo resolver contentFrame/frameLocator para: ${frameLocator}`);
+      intentados.push(`[Form-autofill-extension] No se pudo resolver contentFrame/frameLocator para: ${frameLocator}`);
       return {
         raices: [],
         usaFrames: true
@@ -1374,7 +1374,7 @@ function resolverElementoPorSelector(selector) {
           };
         }
       } catch (e) {
-        console.warn(`[Formulus-Fillus] Selector invalido omitido: ${candidato}`);
+        console.warn(`[Form-autofill-extension] Selector invalido omitido: ${candidato}`);
       }
     }
   }
@@ -1639,13 +1639,13 @@ function autocompletarInput(selector, valor) {
   const intentados = resultadoResolucion.intentados;
 
   if (!selectorNormalizado) {
-    console.error("[Formulus-Fillus] Selector vacio, no se puede autocompletar.");
+    console.error("[Form-autofill-extension] Selector vacio, no se puede autocompletar.");
     return { ok: false, selector: selectorNormalizado, error: "selector_vacio" };
   }
 
   if (!elemento) {
     const detalleIntentos = intentados.length > 0 ? intentados.join(" | ") : "sin candidatos";
-    console.error(`[Formulus-Fillus] No se encontro elemento para selector: ${selectorNormalizado}. Intentos: ${detalleIntentos}`);
+    console.error(`[Form-autofill-extension] No se encontro elemento para selector: ${selectorNormalizado}. Intentos: ${detalleIntentos}`);
     return {
       ok: false,
       selector: selectorNormalizado,
@@ -1663,7 +1663,7 @@ function autocompletarInput(selector, valor) {
     elemento.dispatchEvent(new Event("input", { bubbles: true }));
     elemento.dispatchEvent(new Event("change", { bubbles: true }));
 
-    console.info(`[Formulus-Fillus] Campo completado. original=${selectorNormalizado} aplicado=${selectorAplicado}`);
+    console.info(`[Form-autofill-extension] Campo completado. original=${selectorNormalizado} aplicado=${selectorAplicado}`);
 
     return {
       ok: true,
@@ -1672,7 +1672,7 @@ function autocompletarInput(selector, valor) {
       valorAplicado
     };
   } catch (e) {
-    console.error(`[Formulus-Fillus] Error al setear valor en selector ${selectorNormalizado}: ${e}`);
+    console.error(`[Form-autofill-extension] Error al setear valor en selector ${selectorNormalizado}: ${e}`);
     return {
       ok: false,
       selector: selectorNormalizado,
@@ -1750,7 +1750,7 @@ El README.md siempre debe incluir pasos numerados:
 4. Activar modo desarrollador.
 5. Cargar carpeta con Load unpacked o Cargar descomprimida.
 6. Ir a la pagina objetivo, hacer clic derecho y ejecutar la accion del menu.
-7. Verificar en DevTools consola los logs [Formulus-Fillus].
+7. Verificar en DevTools consola los logs [Form-autofill-extension].
 
 # Flujo en cada solicitud
 
@@ -1872,7 +1872,7 @@ Reglas obligatorias:
      background.js
      README.md
 11. Usa permisos minimos: activeTab, contextMenus, scripting.
-12. Incluye logs con prefijo [Formulus-Fillus].
+12. Incluye logs con prefijo [Form-autofill-extension].
 13. Antes de resolver por selector, si hay un campo editable enfocado y el selector coincide con ese campo, prioriza el cursor activo. Tambien admite selector explicito `@cursor` o `@focused` para forzar modo cursor.
 14. Si selector no existe en el primer intento, primero intenta interpretar sintaxis Playwright (`getByRole`, `getByLabel`, `getByPlaceholder`, `getByText`, `getByAltText`, `getByTitle`, `getByTestId`, `locator` con `css=`, `xpath=`, `text=`), incluyendo `frameLocator`, `locator(...).contentFrame()` y encadenado basico (`first()`, `last()`, `nth(n)`, `filter({ hasText: ... })`). Si no resuelve, aplica fallback robusto en este orden: contexto activo -> documento, selector compuesto dinamico (`input/textarea` por `aria-label`, `name`, `id` usando el token normalizado del selector), luego `#id`, `[id="..."]`, `[name="..."]`, `[aria-label*="..." i]`, `[placeholder*="..." i]`, `[data-testid="..."]`, y por ultimo busqueda semantica por metadata de campo.
 15. Resolver valor por campo en este orden: valor fijo del campo -> token dinamico -> `valor_para_campos_generales`.
