@@ -1,8 +1,8 @@
-# <img src="./icon.png" width="24px" height="24px" style="border-radius: 100%;" />Asistente-Docker
+# <img src="./icon.png" width="24px" height="24px" style="border-radius: 100%;" />Asistente Docker
 
 By [Lucas del Reguero Martinez](https://www.linkedin.com/in/lucas-del-reguero-martinez/ )
 
-Asistente-Docker ofrece asistencia para trabajar con Docker.
+Ayuda a ejecutar, gestionar y diagnosticar contenedores Docker mediante comandos claros y seguros.
 
 | | |
 |-|-|
@@ -14,7 +14,7 @@ Asistente-Docker ofrece asistencia para trabajar con Docker.
 <details>
 
 ````
-name: Asistente-Docker
+name: Asistente Docker
 creator: Lucas del Reguero Martinez
 
 # Rol y Experiencia

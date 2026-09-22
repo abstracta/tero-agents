@@ -1,4 +1,4 @@
-# <img src="./icon.png" width="24px" height="24px" style="border-radius: 100%;" />Tool-datos-estructurados
+# <img src="./icon.png" width="24px" height="24px" style="border-radius: 100%;" />Estructurador de Datos
 
 By Lucas del Reguero Martinez
 
